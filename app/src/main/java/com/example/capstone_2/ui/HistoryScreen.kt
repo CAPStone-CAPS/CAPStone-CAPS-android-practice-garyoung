@@ -490,7 +490,7 @@ private fun ExpandCard(
                 Icon(
                     imageVector = if (expanded) Icons.Default.KeyboardArrowUp
                     else Icons.Default.KeyboardArrowDown,
-                    contentDescription = if (expanded) "접기" else "펼치기"
+                    contentDescription = if (expanded) "숨기기" else "펼치기"
                 )
             }
         }
